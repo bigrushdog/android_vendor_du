@@ -8,3 +8,6 @@ type persist_property_file, file_type;
 type exfat, sdcard_type, fs_type, mlstrustedobject;
 type fuseblk, sdcard_type, fs_type, mlstrustedobject;
 type ntfs, sdcard_type, fs_type, mlstrustedobject;
+
+# Themes
+type theme_data_file, file_type, data_file_type;

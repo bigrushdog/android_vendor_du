@@ -2,4 +2,5 @@
 
 # Themed resources (bootanimation)
 allow bootanim theme_data_file:file r_file_perms;
+allow bootanim theme_data_file:dir search;
 allow bootanim system_data_file:file open;

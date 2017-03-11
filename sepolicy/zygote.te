@@ -1,2 +1,6 @@
 # ps command may do this
 allow untrusted_app zygote:process getsched;
+
+# Themes
+allow zygote theme_data_file:file r_file_perms;
+allow zygote theme_data_file:dir r_dir_perms;
